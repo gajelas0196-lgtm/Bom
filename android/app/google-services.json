@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1021793302127",
+    "project_id": "qaxer-crash-apps",
+    "storage_bucket": "qaxer-crash-apps.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021793302127:android:8e8954afd5e2b7cf363f9a",
+        "android_client_info": {
+          "package_name": "com.qaxercrash.fiona"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAysBSDp3jOsCai15McUKwI8PSJ_ELUpbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
