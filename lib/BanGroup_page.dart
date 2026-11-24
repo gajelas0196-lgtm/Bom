@@ -575,7 +575,7 @@ class _BanGroupPageState extends State<BanGroupPage> with TickerProviderStateMix
                     borderRadius: BorderRadius.circular(8),
                     border: Border.all(color: _C.borderLit),
                   ),
-                  child: const Icon(FontAwesomeIcons.server, color: _C.redLight, size: 14),
+                  child: const FaIcon(FontAwesomeIcons.server, color: _C.redLight, size: 14),
                 ),
                 const SizedBox(width: 10),
                 const Column(

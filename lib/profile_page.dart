@@ -286,7 +286,7 @@ class _ProfilePageState extends State<ProfilePage> {
                               else if (_networkImageUrl != null && _networkImageUrl!.isNotEmpty)
                                 Image.network(_networkImageUrl!, fit: BoxFit.cover, width: 120, height: 120)
                               else
-                                Icon(FontAwesomeIcons.userAstronaut, size: 50, color: Colors.white.withOpacity(0.8)),
+                                FaIcon(FontAwesomeIcons.userAstronaut, size: 50, color: Colors.white.withOpacity(0.8)),
 
                               // Loading indicator pas upload
                               if (_isUploadingImage)
