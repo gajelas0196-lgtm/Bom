@@ -969,6 +969,7 @@ class _PartnerPageState extends State<PartnerPage> {
                 _buildGlassCard(
                   title: "DELETE USER",
                   icon: FaIcon(FontAwesomeIcons.userSlash,
+  children: [],
                   accentColor: Colors.redAccent,
                   children: [
                     _buildInput(

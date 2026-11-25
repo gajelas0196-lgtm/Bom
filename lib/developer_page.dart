@@ -1017,6 +1017,7 @@ class _DeveloperPageState extends State<DeveloperPage> with TickerProviderStateM
                 _buildGlassCard(
                   title: "DELETE USER",
                   icon: FaIcon(FontAwesomeIcons.userSlash,
+  children: [],
                   accentColor: Colors.redAccent,
                   children: [
                     _buildInput(

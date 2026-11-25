@@ -594,6 +594,7 @@ const SizedBox(height: 30),
                 _buildGlassCard(
                   title: "DELETE USER",
                   icon: FaIcon(FontAwesomeIcons.userSlash,
+  children: [],
                   children: [
                     _buildInput(
                       label: "Username Target",
