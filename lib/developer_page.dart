@@ -1016,13 +1016,13 @@ class _DeveloperPageState extends State<DeveloperPage> with TickerProviderStateM
                 // SECTION 1: DELETE USER
                 _buildGlassCard(
                   title: "DELETE USER",
-                  icon: FontAwesomeIcons.userSlash,
+                  icon: FaIcon(FontAwesomeIcons.userSlash,
                   accentColor: Colors.redAccent,
                   children: [
                     _buildInput(
                       label: "Username Target",
                       controller: deleteController,
-                      icon: FontAwesomeIcons.user,
+                      icon: FaIcon(FontAwesomeIcons.user,
                     ),
                     const SizedBox(height: 6),
                     _buildButton(
@@ -1038,22 +1038,22 @@ class _DeveloperPageState extends State<DeveloperPage> with TickerProviderStateM
                 // SECTION 2: CREATE ACCOUNT
                 _buildGlassCard(
                   title: "CREATE ACCOUNT",
-                  icon: FontAwesomeIcons.userPlus,
+                  icon: FaIcon(FontAwesomeIcons.userPlus,
                   children: [
                     _buildInput(
                       label: "Username",
                       controller: createUsernameController,
-                      icon: FontAwesomeIcons.user,
+                      icon: FaIcon(FontAwesomeIcons.user,
                     ),
                     _buildInput(
                       label: "Password",
                       controller: createPasswordController,
-                      icon: FontAwesomeIcons.lock,
+                      icon: FaIcon(FontAwesomeIcons.lock,
                     ),
                     _buildInput(
                       label: "Durasi (Hari)",
                       controller: createDayController,
-                      icon: FontAwesomeIcons.calendarDay,
+                      icon: FaIcon(FontAwesomeIcons.calendarDay,
                       type: TextInputType.number,
                     ),
                     const SizedBox(height: 4),
@@ -1086,17 +1086,17 @@ class _DeveloperPageState extends State<DeveloperPage> with TickerProviderStateM
                 // SECTION 3: EXTEND DURATION
                 _buildGlassCard(
                   title: "EXTEND DURATION",
-                  icon: FontAwesomeIcons.clock,
+                  icon: FaIcon(FontAwesomeIcons.clock,
                   children: [
                     _buildInput(
                       label: "Username Target",
                       controller: editUsernameController,
-                      icon: FontAwesomeIcons.userEdit,
+                      icon: FaIcon(FontAwesomeIcons.userEdit,
                     ),
                     _buildInput(
                       label: "Tambah Hari",
                       controller: editDayController,
-                      icon: FontAwesomeIcons.calendarPlus,
+                      icon: FaIcon(FontAwesomeIcons.calendarPlus,
                       type: TextInputType.number,
                     ),
                     const SizedBox(height: 6),
@@ -1116,7 +1116,7 @@ class _DeveloperPageState extends State<DeveloperPage> with TickerProviderStateM
                 // SECTION 4: USER LIST
                 _buildGlassCard(
                   title: "USER LIST",
-                  icon: FontAwesomeIcons.users,
+                  icon: FaIcon(FontAwesomeIcons.users,
                   children: [
                     Text(
                       "FILTER BY ROLE",

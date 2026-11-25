@@ -2175,17 +2175,17 @@ class _QaxerTeamCard extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               _SocialItem(
-                icon: FontAwesomeIcons.telegram, color: const Color(0xFF29B6F6),
+                icon: FaIcon(FontAwesomeIcons.telegram, color: const Color(0xFF29B6F6),
                 title: "Telegram", is3DNeo: is3DNeo,
                 onTap: () => _openUrl("https://t.me/By_Zii16"),
               ),
               _SocialItem(
-                icon: FontAwesomeIcons.whatsapp, color: const Color(0xFF25D366),
+                icon: FaIcon(FontAwesomeIcons.whatsapp, color: const Color(0xFF25D366),
                 title: "WhatsApp", is3DNeo: is3DNeo,
                 onTap: () => _openUrl("https://wa.me/"),
               ),
               _SocialItem(
-                icon: FontAwesomeIcons.tiktok, color: _C.text,
+                icon: FaIcon(FontAwesomeIcons.tiktok, color: _C.text,
                 title: "TikTok", is3DNeo: is3DNeo,
                 onTap: () => _openUrl("https://tiktok.com/@forx_89"),
               ),

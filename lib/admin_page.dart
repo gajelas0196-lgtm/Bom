@@ -641,12 +641,12 @@ const SizedBox(height: 28),
                 // SECTION 1: DELETE USER
                 _buildGlassCard(
                   title: "DELETE USER",
-                  icon: FontAwesomeIcons.userSlash,
+                  icon: FaIcon(FontAwesomeIcons.userSlash,
                   children: [
                     _buildInput(
                       label: "Username Target",
                       controller: deleteController,
-                      icon: FontAwesomeIcons.user,
+                      icon: FaIcon(FontAwesomeIcons.user,
                     ),
                     SizedBox(height: 10),
                     Container(
@@ -695,22 +695,22 @@ const SizedBox(height: 28),
                 // SECTION 2: CREATE ACCOUNT
                 _buildGlassCard(
                   title: "CREATE ACCOUNT",
-                  icon: FontAwesomeIcons.userPlus,
+                  icon: FaIcon(FontAwesomeIcons.userPlus,
                   children: [
                     _buildInput(
                       label: "Username",
                       controller: createUsernameController,
-                      icon: FontAwesomeIcons.user,
+                      icon: FaIcon(FontAwesomeIcons.user,
                     ),
                     _buildInput(
                       label: "Password",
                       controller: createPasswordController,
-                      icon: FontAwesomeIcons.lock,
+                      icon: FaIcon(FontAwesomeIcons.lock,
                     ),
                     _buildInput(
                       label: "Durasi (Hari)",
                       controller: createDayController,
-                      icon: FontAwesomeIcons.calendarDay,
+                      icon: FaIcon(FontAwesomeIcons.calendarDay,
                       type: TextInputType.number,
                     ),
                     Container(
@@ -792,7 +792,7 @@ isExpanded: true,
                 // SECTION 3: USER LIST
                 _buildGlassCard(
                   title: "USER MANAGEMENT",
-                  icon: FontAwesomeIcons.users,
+                  icon: FaIcon(FontAwesomeIcons.users,
                   children: [
                     Container(
                       padding: EdgeInsets.symmetric(

@@ -196,7 +196,7 @@ class _LandingPageState extends State<LandingPage>
                             const SizedBox(height: 22),
                             Row(children: [
                               Expanded(child: _ContactBtn(
-                                icon: FontAwesomeIcons.telegram,
+                                icon: FaIcon(FontAwesomeIcons.telegram,
                                 label: 'Telegram',
                                 color: const Color(0xFFFFFFFF),
                                 colorDim: const Color(0xFF1A1A1A),
@@ -204,7 +204,7 @@ class _LandingPageState extends State<LandingPage>
                               )),
                               const SizedBox(width: 12),
                               Expanded(child: _ContactBtn(
-                                icon: FontAwesomeIcons.whatsapp,
+                                icon: FaIcon(FontAwesomeIcons.whatsapp,
                                 label: 'WhatsApp',
                                 color: const Color(0xFFFFFFFF),
                                 colorDim: const Color(0xFF1A1A1A),

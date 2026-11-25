@@ -391,22 +391,22 @@ final Color borderGlass = Colors.white.withOpacity(0.10);
                 // SECTION 1: CREATE ACCOUNT
                 _buildGlassCard(
                   title: "CREATE MEMBER",
-                  icon: FontAwesomeIcons.userPlus,
+                  icon: FaIcon(FontAwesomeIcons.userPlus,
                   children: [
                     _buildInput(
                       label: "Username Baru",
                       controller: createUsernameController,
-                      icon: FontAwesomeIcons.user,
+                      icon: FaIcon(FontAwesomeIcons.user,
                     ),
                     _buildInput(
                       label: "Password",
                       controller: createPasswordController,
-                      icon: FontAwesomeIcons.lock,
+                      icon: FaIcon(FontAwesomeIcons.lock,
                     ),
                     _buildInput(
                       label: "Durasi (Hari)",
                       controller: createDayController,
-                      icon: FontAwesomeIcons.calendarDay,
+                      icon: FaIcon(FontAwesomeIcons.calendarDay,
                       type: TextInputType.number,
                       hint: "Maksimal 30 hari",
                     ),
@@ -438,18 +438,18 @@ final Color borderGlass = Colors.white.withOpacity(0.10);
                 // SECTION 2: EDIT / EXTEND DURATION
                 _buildGlassCard(
                   title: "EXTEND DURATION",
-                  icon: FontAwesomeIcons.clock,
+                  icon: FaIcon(FontAwesomeIcons.clock,
                   children: [
                     _buildInput(
                       label: "Username Target",
                       controller: editUsernameController,
-                      icon: FontAwesomeIcons.userEdit,
+                      icon: FaIcon(FontAwesomeIcons.userEdit,
                       hint: "Username member yang ingin diperpanjang",
                     ),
                     _buildInput(
                       label: "Tambah Hari",
                       controller: editDayController,
-                      icon: FontAwesomeIcons.calendarPlus,
+                      icon: FaIcon(FontAwesomeIcons.calendarPlus,
                       type: TextInputType.number,
                       hint: "Maksimal 30 hari",
                     ),
@@ -481,7 +481,7 @@ final Color borderGlass = Colors.white.withOpacity(0.10);
                 // SECTION 3: USER LIST
                 _buildGlassCard(
                   title: "MEMBER LIST",
-                  icon: FontAwesomeIcons.users,
+                  icon: FaIcon(FontAwesomeIcons.users,
                   children: [
                     Container(
                       padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),

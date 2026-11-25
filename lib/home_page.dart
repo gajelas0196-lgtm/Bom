@@ -1458,8 +1458,8 @@ Future<void> _loadGlobalSenders() async {
                     borderRadius: BorderRadius.circular(_is3DNeo ? 0 : 10),
                     border: Border.all(color: _C.border, width: 1.5),
                   ),
-                  child: const Icon(
-                    FontAwesomeIcons.server,
+                  child: const FaIcon(
+                   FontAwesomeIcons.server,
                     color: _C.redMid,
                     size: 15,
                   ),
@@ -1520,7 +1520,7 @@ Future<void> _loadGlobalSenders() async {
               children: [
                 Expanded(
                   child: _SenderOption(
-                    icon: FontAwesomeIcons.globe,
+                    icon: FaIcon(FontAwesomeIcons.globe,
                     label: 'Global',
                     sublabel: _isLoadingSenders
                         ? 'Loading...'
@@ -1542,7 +1542,7 @@ Future<void> _loadGlobalSenders() async {
                 const SizedBox(width: 10),
                 Expanded(
                   child: _SenderOption(
-                    icon: FontAwesomeIcons.userShield,
+                    icon: FaIcon(FontAwesomeIcons.userShield,
                     label: 'Private',
                     sublabel: _isLoadingSenders
     ? 'Loading...'

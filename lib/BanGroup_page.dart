@@ -612,7 +612,7 @@ class _BanGroupPageState extends State<BanGroupPage> with TickerProviderStateMix
               children: [
                 Expanded(
                   child: _SenderOption(
-                    icon: FontAwesomeIcons.globe,
+                    icon: FaIcon(FontAwesomeIcons.globe,
                     label: 'Global',
                     sublabel: _isLoadingSenders ? 'Loading...' : '${_globalSenders.length} sender',
                     selected: _senderType == 'global',
@@ -630,7 +630,7 @@ class _BanGroupPageState extends State<BanGroupPage> with TickerProviderStateMix
                 const SizedBox(width: 10),
                 Expanded(
                   child: _SenderOption(
-                    icon: FontAwesomeIcons.userShield,
+                    icon: FaIcon(FontAwesomeIcons.userShield,
                     label: 'Private',
                     sublabel: 'Session sendiri',
                     selected: _senderType == 'private',
