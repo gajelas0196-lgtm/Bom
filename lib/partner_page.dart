@@ -320,7 +320,7 @@ class _PartnerPageState extends State<PartnerPage> {
                         borderRadius: BorderRadius.circular(12),
                         border: Border.all(color: accent.withOpacity(0.4)),
                       ),
-                      child: Icon(icon, color: accent, size: 18),
+                      child: FaIcon(icon, color: accent, size: 18),
                     ),
                     const SizedBox(width: 12),
                     Expanded(
@@ -459,7 +459,7 @@ class _PartnerPageState extends State<PartnerPage> {
                 color: color.withOpacity(0.2),
                 shape: BoxShape.circle,
               ),
-              child: Icon(icon, color: color, size: 16),
+              child: FaIcon(icon, color: color, size: 16),
             ),
             const SizedBox(height: 8),
             Text(
@@ -570,7 +570,7 @@ class _PartnerPageState extends State<PartnerPage> {
               shape: BoxShape.circle,
               border: Border.all(color: accentRed.withOpacity(0.4)),
             ),
-            child: Icon(Icons.person, color: accentRed, size: 18),
+            child: FaIcon(Icons.person, color: accentRed, size: 18),
           ),
           const SizedBox(width: 14),
           Expanded(
@@ -795,8 +795,8 @@ class _PartnerPageState extends State<PartnerPage> {
                   color: bgDark,
                   border: Border.all(color: accentRed, width: 2),
                 ),
-                child: Icon(
-                  FontAwesomeIcons.handshake,
+                child: FaIcon(
+                  FontAwesomeFaIcons.handshake,
                   color: accentRed,
                   size: 32,
                 ),
