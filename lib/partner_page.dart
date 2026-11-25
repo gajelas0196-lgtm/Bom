@@ -570,7 +570,7 @@ class _PartnerPageState extends State<PartnerPage> {
               shape: BoxShape.circle,
               border: Border.all(color: accentRed.withOpacity(0.4)),
             ),
-            child: FaIcon(Icons.person, color: accentRed, size: 18),
+            child: Icon(Icons.person, color: accentRed, size: 18),
           ),
           const SizedBox(width: 14),
           Expanded(
@@ -796,7 +796,7 @@ class _PartnerPageState extends State<PartnerPage> {
                   border: Border.all(color: accentRed, width: 2),
                 ),
                 child: FaIcon(
-                  FontAwesomeFaIcons.handshake,
+                  FontAwesomeIcons.handshake,
                   color: accentRed,
                   size: 32,
                 ),
