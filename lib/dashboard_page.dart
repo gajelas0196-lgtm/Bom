@@ -561,7 +561,7 @@ class _DashboardPageState extends State<DashboardPage>
   }
 
   Widget _xMenuBtn({
-    required IconData icon,
+    required dynamic icon,
     required String label,
     required VoidCallback onTap,
     bool isDanger = false,
@@ -774,7 +774,7 @@ void _onDrawerNav(int index) {
 
 void _showSystemDialog({
   required String title, required String message,
-  required IconData icon, required Color color,
+  required dynamic icon, required Color color,
   VoidCallback? onOk,
 }) {
   showGeneralDialog(
@@ -2206,7 +2206,7 @@ class _QaxerTeamCard extends StatelessWidget {
 }
 
 class _SocialItem extends StatelessWidget {
-  final IconData icon;
+  final dynamic icon;
   final Color color;
   final String title;
   final VoidCallback onTap;
@@ -2472,7 +2472,7 @@ class _PrayerCard extends StatelessWidget {
 class _PrayerItem extends StatelessWidget {
   final String title;
   final String time;
-  final IconData icon;
+  final dynamic icon;
   final List<Color> colors;
   final bool is3DNeo;
 
@@ -2905,7 +2905,7 @@ class _DrawerHeaderState extends State<_DrawerHeader>
 // DRAWER ITEM
 // ═══════════════════════════════════════════════════════════════════
 class _DrawerItem extends StatelessWidget {
-  final IconData icon;
+  final dynamic icon;
   final String label;
   final bool isDestructive;
   final bool is3DNeo;
@@ -2983,7 +2983,7 @@ class _MenuBtn extends StatelessWidget {
 // APPBAR ICON BTN
 // ═══════════════════════════════════════════════════════════════════
 class _AppBarIconBtn extends StatelessWidget {
-  final IconData icon;
+  final dynamic icon;
   final VoidCallback onTap;
   final bool is3DNeo;
 
@@ -3016,7 +3016,7 @@ class _AppBarIconBtn extends StatelessWidget {
 // NAV BUTTON
 // ═══════════════════════════════════════════════════════════════════
 class _NavButton extends StatelessWidget {
-    final IconData icon;
+    final dynamic icon;
   final String label;
   final bool active;
   final VoidCallback onTap;
@@ -3239,7 +3239,7 @@ class _DashboardProfileCardState extends State<DashboardProfileCard> {
     );
   }
 
-  Widget _buildInfoTile(String label, String value, IconData icon) {
+  Widget _buildInfoTile(String label, String value, dynamic icon) {
     return Row(
       children: [
         Icon(icon, color: _C.textSub, size: 14),

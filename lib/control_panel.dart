@@ -797,7 +797,7 @@ class _State extends State<ControlCenterPage>
   // ═══ DROPDOWN CATEGORY ═══
   Widget _buildDropdownCategory({
     required String key,
-    required IconData icon,
+    required dynamic icon,
     required String title,
     required String subtitle,
     required Color color,
@@ -904,7 +904,7 @@ class _State extends State<ControlCenterPage>
 
   // ═══ BIG TOGGLE ═══
   Widget _buildBigToggle({
-    required IconData icon,
+    required dynamic icon,
     required String title,
     required String subtitle,
     required Color color,
@@ -1903,7 +1903,7 @@ class _State extends State<ControlCenterPage>
                 ])));
   }
 
-  Widget _actionBtn(String label, Color color, IconData icon,
+  Widget _actionBtn(String label, Color color, dynamic icon,
           VoidCallback fn) =>
       Padding(
         padding: const EdgeInsets.only(bottom: 8),

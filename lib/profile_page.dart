@@ -389,7 +389,7 @@ class _ProfilePageState extends State<ProfilePage> {
   Widget _buildTextField({
     required TextEditingController controller,
     required String label,
-    required IconData icon,
+    required dynamic icon,
     bool obscureText = false,
     int maxLines = 1,
   }) {
@@ -416,7 +416,7 @@ class _ProfilePageState extends State<ProfilePage> {
     );
   }
 
-  Widget _buildInfoCard({required IconData icon, required String label, required String value}) {
+  Widget _buildInfoCard({required dynamic icon, required String label, required String value}) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 15),
       decoration: BoxDecoration(

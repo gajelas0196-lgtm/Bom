@@ -209,7 +209,7 @@ class _AdminPageState extends State<AdminPage> {
   Widget _buildInput({
     required String label,
     required TextEditingController controller,
-    required IconData icon,
+    required dynamic icon,
     TextInputType type = TextInputType.text,
   }) {
     return Padding(
@@ -243,7 +243,7 @@ class _AdminPageState extends State<AdminPage> {
 
   Widget _buildGlassCard({
     required String title,
-    required IconData icon,
+    required dynamic icon,
     required List<Widget> children,
   }) {
     return Container(
@@ -538,7 +538,7 @@ const SizedBox(width: 16),
 }
   
   Widget _buildStatCard(
-    IconData icon,
+    dynamic icon,
     String title,
     String value,
     ) {

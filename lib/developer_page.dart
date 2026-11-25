@@ -263,7 +263,7 @@ class _DeveloperPageState extends State<DeveloperPage> with TickerProviderStateM
   Widget _buildInput({
     required String label,
     required TextEditingController controller,
-    required IconData icon,
+    required dynamic icon,
     TextInputType type = TextInputType.text,
   }) {
     final isNumeric = type == TextInputType.number;
@@ -298,7 +298,7 @@ class _DeveloperPageState extends State<DeveloperPage> with TickerProviderStateM
 
   Widget _buildGlassCard({
     required String title,
-    required IconData icon,
+    required dynamic icon,
     required List<Widget> children,
     Color? accentColor,
   }) {
@@ -402,7 +402,7 @@ class _DeveloperPageState extends State<DeveloperPage> with TickerProviderStateM
 
   Widget _buildButton({
     required String text,
-    required IconData icon,
+    required dynamic icon,
     required VoidCallback onTap,
     bool loading = false,
     List<Color>? gradientColors,
@@ -456,7 +456,7 @@ class _DeveloperPageState extends State<DeveloperPage> with TickerProviderStateM
   Widget _buildStatCard({
     required String label,
     required int count,
-    required IconData icon,
+    required dynamic icon,
     required Color color,
   }) {
     return Expanded(
@@ -521,7 +521,7 @@ class _DeveloperPageState extends State<DeveloperPage> with TickerProviderStateM
 
   Widget _buildRoleBadge(String role) {
     Color badgeColor;
-    IconData badgeIcon;
+    dynamic badgeIcon;
     switch (role.toLowerCase()) {
       case 'owner':
         badgeColor = const Color(0xFFFFD700);

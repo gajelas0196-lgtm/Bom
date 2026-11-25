@@ -213,7 +213,7 @@ double downloadProgress = 0;
 
   Widget buildField(
     String title,
-    IconData icon,
+    dynamic icon,
     TextEditingController controller, {
     String? hint,
   }) {
@@ -393,7 +393,7 @@ double downloadProgress = 0;
     );
   }
 
-  Widget infoTile(String title, String value, IconData icon) {
+  Widget infoTile(String title, String value, dynamic icon) {
     return Container(
       margin: const EdgeInsets.only(bottom: 12),
       padding: const EdgeInsets.all(16),

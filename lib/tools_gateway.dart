@@ -151,7 +151,7 @@ class _DiagonalStripePainter extends CustomPainter {
 
 // ======================== TOOL ITEM MODEL ========================
 class _ToolItem {
-  final IconData icon;
+  final dynamic icon;
   final String label;
   final VoidCallback onTap;
   final bool locked;
@@ -421,7 +421,7 @@ class _ToolsPageState extends State<ToolsPage> with TickerProviderStateMixin {
     );
   }
 
-  Widget _buildStatusChip(IconData icon, String label, Color color) {
+  Widget _buildStatusChip(dynamic icon, String label, Color color) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
       decoration: BoxDecoration(
@@ -988,7 +988,7 @@ Widget _buildUtilityCard() {
     );
   }
 
-  Widget _buildQuickPill(IconData icon, String label, VoidCallback onTap) {
+  Widget _buildQuickPill(dynamic icon, String label, VoidCallback onTap) {
     return GestureDetector(
       onTap: onTap,
       child: Container(
@@ -1024,7 +1024,7 @@ Widget _buildUtilityCard() {
 
   // ═══ GENERIC CLIPPED CARD ═══
   Widget _buildClippedCard({
-    required IconData icon,
+    required dynamic icon,
     required String title,
     required String subtitle,
     required int toolCount,
@@ -1158,7 +1158,7 @@ Widget _buildUtilityCard() {
   void _showCategorySheet(
     BuildContext context, {
     required String title,
-    required IconData icon,
+    required dynamic icon,
     required List<_ToolItem> tools,
   }) {
     final sheetHeight = tools.length <= 2

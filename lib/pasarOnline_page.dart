@@ -1688,7 +1688,7 @@ class _SecLabel extends StatelessWidget {
 class _TF extends StatelessWidget {
   final TextEditingController ctrl;
   final String hint;
-  final IconData? icon;
+  final dynamic? icon;
   final TextInputType kb;
   final bool enabled;
   final int lines;
@@ -1724,7 +1724,7 @@ class _TF extends StatelessWidget {
 class _TFfa extends StatelessWidget {
   final TextEditingController ctrl;
   final String hint;
-  final IconData faIcon;
+  final dynamic faIcon;
   final TextInputType kb;
   final Color accentColor;
   final bool isNum;
@@ -1754,7 +1754,7 @@ class _Btn42 extends StatelessWidget {
   final VoidCallback? onTap;
   final bool busy;
   final Color color;
-  final IconData icon;
+  final dynamic icon;
   const _Btn42({required this.onTap, required this.color, required this.icon, this.busy = false});
   @override
   Widget build(BuildContext context) => GestureDetector(
@@ -1773,7 +1773,7 @@ class _CtxBtn extends StatelessWidget {
   final String label, value;
   final Color color;
   final VoidCallback onTap;
-  final IconData? icon, faIcon;
+  final dynamic? icon, faIcon;
   const _CtxBtn({required this.label, required this.value, required this.color,
     required this.onTap, this.icon, this.faIcon});
   @override

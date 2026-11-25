@@ -106,7 +106,7 @@ class _WifiInternalPageState extends State<WifiInternalPage> {
     );
   }
 
-  Widget _infoCard(String title, String value, IconData icon) {
+  Widget _infoCard(String title, String value, dynamic icon) {
     return Card(
       color: cardDark,
       shadowColor: accentCyan.withOpacity(0.5),

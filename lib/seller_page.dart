@@ -193,7 +193,7 @@ final Color borderGlass = Colors.white.withOpacity(0.10);
   Widget _buildInput({
     required String label,
     required TextEditingController controller,
-    required IconData icon,
+    required dynamic icon,
     TextInputType type = TextInputType.text,
     String hint = "",
   }) {
@@ -231,7 +231,7 @@ final Color borderGlass = Colors.white.withOpacity(0.10);
 
   Widget _buildGlassCard({
     required String title,
-    required IconData icon,
+    required dynamic icon,
     required List<Widget> children,
   }) {
     return Container(

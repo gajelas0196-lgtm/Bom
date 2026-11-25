@@ -830,7 +830,7 @@ Widget _buildSignInButton() {
 
 // ─── Feature Item ─────────────────────────────────────────────────────────────
 class _FeatureItem extends StatelessWidget {
-  final IconData icon;
+  final dynamic icon;
   final String title;
   final String desc;
   final Color color;
@@ -920,7 +920,7 @@ class _FeatureItem extends StatelessWidget {
 
 // ─── Contact Button ───────────────────────────────────────────────────────────
 class _ContactBtn extends StatefulWidget {
-  final IconData icon;
+  final dynamic icon;
   final String label;
   final Color color;
   final Color colorDim;

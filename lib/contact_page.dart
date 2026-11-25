@@ -24,7 +24,7 @@ class _C {
 class _Contact {
   final String label;
   final String handle;
-  final IconData icon;
+  final dynamic icon;
   final Color color;
   final Color colorDim;
   final String url;

@@ -647,7 +647,7 @@ class _DurationBar extends StatelessWidget {
 
 // ─── Section Card ─────────────────────────────────────────────────────────────
 class _SectionCard extends StatelessWidget {
-  final IconData icon;
+  final dynamic icon;
   final String title;
   final String subtitle;
   final Color accentColor;
@@ -722,7 +722,7 @@ class _SectionCard extends StatelessWidget {
 class _AttackInput extends StatefulWidget {
   final TextEditingController controller;
   final String hint;
-  final IconData icon;
+  final dynamic icon;
   final bool enabled;
   final TextInputType keyboardType;
 

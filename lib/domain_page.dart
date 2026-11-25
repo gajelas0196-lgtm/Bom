@@ -654,7 +654,7 @@ class _StatPill extends StatelessWidget {
 
 // ─── Result Card ──────────────────────────────────────────────────────────────
 class _ResultCard extends StatelessWidget {
-  final IconData icon;
+  final dynamic icon;
   final String title;
   final String subtitle;
   final Color accentColor;

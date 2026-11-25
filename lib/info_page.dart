@@ -74,7 +74,7 @@ const _rules = [
 class _Rule {
   final String title;
   final String desc;
-  final IconData icon;
+  final dynamic icon;
   final Color color;
   const _Rule({required this.title, required this.desc,
       required this.icon, required this.color});
@@ -545,7 +545,7 @@ class _InfoPageState extends State<InfoPage> with TickerProviderStateMixin {
 }
 
   Widget _buildSectionHeader({
-    required IconData icon,
+    required dynamic icon,
     required String title,
     required String subtitle,
   }) {

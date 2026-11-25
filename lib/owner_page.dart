@@ -250,7 +250,7 @@ final Color borderGlass = const Color(0xFF225D3D);
   Widget _buildInput({
     required String label,
     required TextEditingController controller,
-    required IconData icon,
+    required dynamic icon,
     TextInputType type = TextInputType.text,
   }) {
     final isNumeric = type == TextInputType.number;
@@ -284,7 +284,7 @@ final Color borderGlass = const Color(0xFF225D3D);
   }
   Widget _buildButton({
   required String text,
-  required IconData icon,
+  required dynamic icon,
   required VoidCallback onTap,
   bool loading = false,
 }) {
@@ -342,7 +342,7 @@ final Color borderGlass = const Color(0xFF225D3D);
 
   Widget _buildGlassCard({
     required String title,
-    required IconData icon,
+    required dynamic icon,
     required List<Widget> children,
   }) {
     return Container(

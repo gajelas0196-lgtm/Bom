@@ -672,7 +672,7 @@ class _PasswordField extends StatefulWidget {
   final TextEditingController controller;
   final FocusNode focusNode;
   final String label;
-  final IconData icon;
+  final dynamic icon;
   final bool obscure;
   final VoidCallback onToggle;
   final FocusNode? nextFocus;
@@ -1027,7 +1027,7 @@ class _GradBtn extends StatefulWidget {
   final VoidCallback onTap;
   final LinearGradient gradient;
   final bool fullWidth;
-  final IconData? icon;
+  final dynamic? icon;
 
   const _GradBtn({
     required this.label,

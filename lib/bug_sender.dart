@@ -891,7 +891,7 @@ class _SenderCardState extends State<_SenderCard>
 // ─── Card Button ──────────────────────────────────────────────────────────────
 class _CardBtn extends StatefulWidget {
   final String label;
-  final IconData icon;
+  final dynamic icon;
   final bool isDestructive;
   final VoidCallback onTap;
 
@@ -1187,7 +1187,7 @@ class _CopyBtn extends StatelessWidget {
 // ─── Stat Strip ──────────────────────────────────────────────────────────────
 // ─── Section Header ──────────────────────────────────────────────────────────
 class _SectionHeader extends StatelessWidget {
-  final IconData icon;
+  final dynamic icon;
   final String title;
   final String subtitle;
   final int count;
@@ -1537,7 +1537,7 @@ class _DialogShell extends StatelessWidget {
 }
 
 class _DialogIcon extends StatelessWidget {
-  final IconData icon;
+  final dynamic icon;
   final Color color;
 
   const _DialogIcon({required this.icon, required this.color});
@@ -1559,7 +1559,7 @@ class _DialogIcon extends StatelessWidget {
 /// Gradient primary button
 class _GradBtn extends StatefulWidget {
   final String label;
-  final IconData? icon;
+  final dynamic? icon;
   final VoidCallback onTap;
   final LinearGradient gradient;
   final bool fullWidth;
@@ -1675,7 +1675,7 @@ class _InputField extends StatelessWidget {
   final TextEditingController controller;
   final String label;
   final String? hint;
-  final IconData icon;
+  final dynamic icon;
   final TextInputType keyboardType;
 
   const _InputField({
@@ -1722,7 +1722,7 @@ class _InputField extends StatelessWidget {
 
 /// AppBar icon button
 class _AppBarBtn extends StatefulWidget {
-  final IconData icon;
+  final dynamic icon;
   final VoidCallback? onTap;
   final bool spinning;
 

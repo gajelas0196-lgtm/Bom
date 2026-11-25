@@ -293,7 +293,7 @@ static const _darkOverlay   = Color(0xFF030A05);
     );
   }
 
-  Widget _buildNeonButton({required IconData icon, String? label, required VoidCallback onTap, bool danger = false}) {
+  Widget _buildNeonButton({required dynamic icon, String? label, required VoidCallback onTap, bool danger = false}) {
     final color = danger ? _glowRed : _neonRed;
     return GestureDetector(
       onTap: onTap,
@@ -424,7 +424,7 @@ static const _darkOverlay   = Color(0xFF030A05);
     );
   }
 
-  Widget _banner(IconData icon, String msg, Color c) => Container(
+  Widget _banner(dynamic icon, String msg, Color c) => Container(
     margin: const EdgeInsets.fromLTRB(14, 10, 14, 0),
     padding: const EdgeInsets.all(12),
     decoration: BoxDecoration(

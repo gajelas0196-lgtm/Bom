@@ -484,7 +484,7 @@ class _BackgroundPageState extends State<BackgroundPage> {
     );
   }
 
-  Widget _modeTab(String label, IconData icon, int index) {
+  Widget _modeTab(String label, dynamic icon, int index) {
     final active = _mode == index;
     return GestureDetector(
       onTap: () => setState(() => _mode = index),

@@ -756,7 +756,7 @@ class _TelegramSpamPageState extends State<TelegramSpamPage>
     );
   }
 
-  Widget _buildEmptyState(String title, String subtitle, IconData icon) {
+  Widget _buildEmptyState(String title, String subtitle, dynamic icon) {
     return Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -928,7 +928,7 @@ class _TelegramSpamPageState extends State<TelegramSpamPage>
     );
   }
 
-  Widget _buildDialogHeader(String title, IconData icon) {
+  Widget _buildDialogHeader(String title, dynamic icon) {
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.all(16),
@@ -1035,7 +1035,7 @@ class _TelegramSpamPageState extends State<TelegramSpamPage>
     );
   }
 
-  InputDecoration _inputDecoration(String label, String hint, IconData icon) {
+  InputDecoration _inputDecoration(String label, String hint, dynamic icon) {
     return InputDecoration(
       labelText: label,
       hintText: hint,
@@ -1298,7 +1298,7 @@ class ReportInputCard extends StatelessWidget {
     );
   }
 
-  InputDecoration _inputDecoration(String label, String hint, IconData icon) {
+  InputDecoration _inputDecoration(String label, String hint, dynamic icon) {
     return InputDecoration(
       labelText: label,
       hintText: hint,

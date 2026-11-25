@@ -937,7 +937,7 @@ Future<void> _loadGlobalSenders() async {
 
   Widget _buildModeCard({
     required Color color,
-    required IconData icon,
+    required dynamic icon,
     required String title,
     required String desc,
     required VoidCallback onPressed,
@@ -1737,7 +1737,7 @@ Future<void> _loadGlobalSenders() async {
     final msg = parts.length > 1 ? parts[1] : '';
 
     Color color;
-    IconData icon;
+dynamic icon;
     switch (type) {
       case 'success':
         color = _C.green;
@@ -1973,7 +1973,7 @@ class _CountryPhoneInputState extends State<_CountryPhoneInput> {
 // WIDGET PENDUKUNG
 // ═══════════════════════════════════════════════════════════════════
 class _StatusBox extends StatelessWidget {
-  final IconData icon;
+  final dynamic icon;
   final String value;
   final String title;
   final bool is3DNeo;
@@ -2026,7 +2026,7 @@ class _StatusBox extends StatelessWidget {
 }
 
 class _InputSection extends StatelessWidget {
-  final IconData icon;
+  final dynamic icon;
   final String label;
   final Widget child;
   final bool is3DNeo;
@@ -2096,7 +2096,7 @@ class _BugInput extends StatefulWidget {
   final TextEditingController controller;
   final String hint;
   final TextInputType keyboardType;
-  final IconData icon;
+  final dynamic icon;
   final bool is3DNeo;
 
   const _BugInput({
@@ -2176,7 +2176,7 @@ class _BugInputState extends State<_BugInput> {
 }
 
 class _SenderOption extends StatefulWidget {
-  final IconData icon;
+  final dynamic icon;
   final String label;
   final String sublabel;
   final bool selected;

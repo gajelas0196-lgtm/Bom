@@ -794,7 +794,7 @@ class _LoginPageState extends State<LoginPage>
 class _LoginField extends StatefulWidget {
   final TextEditingController controller;
   final String label;
-  final IconData icon;
+  final dynamic icon;
   final bool obscure;
   final bool is3DNeo;
   final VoidCallback? onToggleObscure;

@@ -164,7 +164,7 @@ class _RiwayatPageState extends State<RiwayatPage> {
 
   Widget _buildActivityCard(ActivityModel activity) {
     Color iconColor;
-    IconData iconData;
+    dynamic iconData;
     String typeLabel;
 
     switch (activity.type) {

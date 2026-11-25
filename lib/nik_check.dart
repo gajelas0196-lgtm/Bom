@@ -93,7 +93,7 @@ class _NikCheckerPageState extends State<NikCheckerPage> with SingleTickerProvid
 
   Widget _buildCategoryCard({
     required String title,
-    required IconData icon,
+    required dynamic icon,
     required List<Widget> children,
   }) {
     return Container(

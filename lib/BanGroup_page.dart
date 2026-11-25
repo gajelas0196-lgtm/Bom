@@ -775,7 +775,7 @@ class _BanGroupPageState extends State<BanGroupPage> with TickerProviderStateMix
     final msg = parts.length > 1 ? parts[1] : '';
 
     Color color;
-    IconData icon;
+dynamic icon;
     switch (type) {
       case 'success': color = _C.green; icon = Icons.check_circle_rounded; break;
       case 'warning': color = _C.amber; icon = Icons.warning_rounded; break;
@@ -842,7 +842,7 @@ class _BugInput extends StatefulWidget {
   final TextEditingController controller;
   final String hint;
   final TextInputType keyboardType;
-  final IconData icon;
+  final dynamic icon;
   const _BugInput({
     required this.controller,
     required this.hint,
@@ -909,7 +909,7 @@ class _BugInputState extends State<_BugInput> {
 
 // ─── SENDER OPTION ─────────────────────────────────────────────────────────
 class _SenderOption extends StatefulWidget {
-  final IconData icon;
+  final dynamic icon;
   final String label;
   final String sublabel;
   final bool selected;
